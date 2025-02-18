@@ -1,0 +1,7 @@
+The solution is to add spaces around the operators within the `calc()` function. Here's the corrected code:
+
+```css
+.element { width: calc(25% + 10px); }
+```
+
+Make sure there are spaces before and after each operator (`+`, `-`, `*`, `/`).  This ensures that the browser correctly parses the calculation and applies the correct values.
